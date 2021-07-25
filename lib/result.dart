@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
   final int resultScore;
-  final Function resetHandler; 
-      //? We can use VoidCallBack instead of Function
+  final Function resetHandler;
+  //? We can use VoidCallBack instead of Function
 
   Result(this.resultScore, this.resetHandler);
 
@@ -42,6 +42,7 @@ class Result extends StatelessWidget {
             child: Text(
               "Restart The Quiz!",
             ),
+            textColor: Colors.blue,
           ),
         ],
       ),
